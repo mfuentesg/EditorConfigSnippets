@@ -13,10 +13,10 @@ insert_final_newline = ${5:true|false}
 indent_size = ${6:2}
 
 [{*.js}]
-indent_size = ${6:2}
+indent_size = ${7:2}
 
 [{*.css,*.styl,*.scss,*.less}]
-indent_size = ${6:2}
+indent_size = ${8:2}
 ]]></content>
   <tabTrigger>editor-frontend</tabTrigger>
 </snippet>

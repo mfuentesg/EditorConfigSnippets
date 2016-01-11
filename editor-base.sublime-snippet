@@ -10,16 +10,16 @@ trim_trailing_whitespace = ${4:true|false}
 insert_final_newline = ${5:true|false}
 
 [*.sh]
-indent_size = ${1:2}
+indent_size = ${6:2}
 
 [{*.js,*.json}]
-indent_size = ${1:2}
+indent_size = ${7:2}
 
 [*.php]
-indent_size = ${1:4}
+indent_size = ${8:4}
 
 [*.py]
-indent_size = ${1:4}
+indent_size = ${9:4}
 ]]></content>
   <tabTrigger>editor-base</tabTrigger>
 </snippet>
