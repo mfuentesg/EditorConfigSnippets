@@ -8,7 +8,7 @@ It is recommended install [EditorConfig](https://packagecontrol.io/packages/Edit
 
 ### With Package Control
 
-To install this plugin you can use [Package Control](https://packagecontrol.io) and looks for [EditorConfigSnippets](https://github.com/mfuentesg/EditorConfigSnippets).
+To install this plugin you can use [Package Control](https://packagecontrol.io) and looks for [EditorConfigSnippets](https://packagecontrol.io/packages/EditorConfigSnippets).
 
 ### With Git
 
