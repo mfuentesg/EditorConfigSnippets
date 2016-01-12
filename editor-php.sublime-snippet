@@ -11,4 +11,5 @@ insert_final_newline = ${5:true|false}
 indent_size = ${6:4}
 ]]></content>
   <tabTrigger>editor-php</tabTrigger>
+  <scope>source.ini.editorconfig</scope>
 </snippet>

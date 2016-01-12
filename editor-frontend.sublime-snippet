@@ -12,11 +12,12 @@ insert_final_newline = ${5:true|false}
 [*.html]
 indent_size = ${6:2}
 
-[{*.js}]
+[{*.js,*.json}]
 indent_size = ${7:2}
 
 [{*.css,*.styl,*.scss,*.less}]
 indent_size = ${8:2}
 ]]></content>
   <tabTrigger>editor-frontend</tabTrigger>
+  <scope>source.ini.editorconfig</scope>
 </snippet>

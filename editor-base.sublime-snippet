@@ -12,14 +12,27 @@ insert_final_newline = ${5:true|false}
 [*.sh]
 indent_size = ${6:2}
 
-[{*.js,*.json}]
+[*.html]
 indent_size = ${7:2}
 
+[{*.js,*.json}]
+indent_size = ${8:2}
+
+[{*.css,*.styl,*.scss,*.less}]
+indent_size = ${9:2}
+
 [*.php]
-indent_size = ${8:4}
+indent_size = ${10:4}
+
+[*.rb]
+indent_size = ${11:2}
 
 [*.py]
-indent_size = ${9:4}
+indent_size = ${12:4}
+
+[*.txt]
+indent_size = ${13:4}
 ]]></content>
   <tabTrigger>editor-base</tabTrigger>
+  <scope>source.ini.editorconfig</scope>
 </snippet>
