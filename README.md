@@ -36,9 +36,9 @@ The snippets are independent, so each has similar properties. Each snippet works
 - **editor-ruby**
 - **editor-txt**
 
-## Coding style (Recommended)
+## My recommended Settings
 
-```.editorconfig
+```ini
 root = true
 
 [*]
