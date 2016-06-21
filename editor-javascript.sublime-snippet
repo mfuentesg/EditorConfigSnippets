@@ -2,7 +2,8 @@
   <content><![CDATA[
 root = true
 
-[{*.json,*.js}]
+[*.{json,js}]
+max_line_length = ${0:100|off}
 end_of_line = ${1:lf|crlf|cr}
 indent_style = ${2:space|tab}
 charset = ${3:utf-8|latin1|utf-16be|utf-16le}

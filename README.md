@@ -25,12 +25,68 @@ The snippets are independent, so each has similar properties. Each snippet works
 
 - **editor-base**
 - **editor-bash**
+- **editor-c**
+- **editor-cpp**
 - **editor-frontend**
+- **editor-go**
 - **editor-javascript**
+- **editor-md**
 - **editor-php**
 - **editor-python**
 - **editor-ruby**
 - **editor-txt**
+
+## Coding style (Recommended)
+
+```.editorconfig
+root = true
+
+[*]
+max_line_length = 100
+end_of_line = lf
+indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.sh]
+indent_size = 2
+
+[*.html]
+indent_size = 2
+
+[*.{js,json}]
+indent_size = 2
+
+[*.{css,styl,scss,less,sass}]
+indent_size = 2
+
+[*.php]
+indent_size = 4
+
+[*.rb]
+indent_size = 2
+
+[*.py]
+indent_size = 4
+
+[*.txt]
+indent_size = 4
+
+[*.{c,cpp}]
+indent_size = 4
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.go]
+indent_size = 2
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+indent_style = tab
+
+```
 
 ##Contributions
 

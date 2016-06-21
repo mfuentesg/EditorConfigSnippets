@@ -3,6 +3,7 @@
 root = true
 
 [*]
+max_line_length = ${0:100|off}
 end_of_line = ${1:lf|crlf|cr}
 indent_style = ${2:space|tab}
 charset = ${3:utf-8|latin1|utf-16be|utf-16le}
@@ -12,10 +13,10 @@ insert_final_newline = ${5:true|false}
 [*.html]
 indent_size = ${6:2}
 
-[{*.js,*.json}]
+[*.{js,json}]
 indent_size = ${7:2}
 
-[{*.css,*.styl,*.scss,*.less}]
+[*.{css,styl,scss,less,sass}]
 indent_size = ${8:2}
 ]]></content>
   <tabTrigger>editor-frontend</tabTrigger>
