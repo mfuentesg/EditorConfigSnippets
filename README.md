@@ -88,6 +88,6 @@ indent_style = tab
 
 ```
 
-##Contributions
+## Contributions
 
 You are welcome to generates a PR with your favorite guidelines.
