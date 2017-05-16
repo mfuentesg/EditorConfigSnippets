@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+root = true
+
+[*.{pl,pm,t,PL}]
+max_line_length = ${0:80|off}
+end_of_line = ${1:lf|crlf|cr}
+indent_style = ${2:space|tab}
+charset = ${3:utf-8|latin1}
+trim_trailing_whitespace = ${4:true|false}
+insert_final_newline = ${5:true|false}
+indent_size = ${6:2|4}
+]]></content>
+  <tabTrigger>editor-perl</tabTrigger>
+  <scope>source.ini.editorconfig</scope>
+</snippet>
