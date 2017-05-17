@@ -32,6 +32,7 @@ The snippets are independent, so each has similar properties. Each snippet works
 - **editor-javascript**
 - **editor-md**
 - **editor-php**
+- **editor-perl**
 - **editor-python**
 - **editor-ruby**
 - **editor-txt**
