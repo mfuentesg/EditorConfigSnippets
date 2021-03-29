@@ -1,5 +1,9 @@
 # EditorConfigSnippets
 
+<a href="https://www.buymeacoffee.com/mfuentesg" target="_blank">
+   <img height="41" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" />
+</a>
+
 [EditorConfigSnippets](https://github.com/mfuentesg/EditorConfigSnippets) is a set of snippets for `.editorconfig` files.
 
 ## Installation
